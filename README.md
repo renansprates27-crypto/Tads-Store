@@ -407,3 +407,63 @@ git commit -m "Initial commit: TADS Store structure"
 git branch -M main
 git remote add origin https://github.com/renansprates27-crypto/tads-store.git
 git push -u origin main
+
+TADS Store - Renan Sprates 🛍️
+
+### 📦 Repositório
+GitHub: https://github.com/renansprates27-crypto/Tads-Store
+
+### 🏪 Estrutura da Loja
+A loja está montada com os seguintes componentes:
+
+**Componentes criados:**
+- ✅ **Layout** - Container principal com flex column
+- ✅ **Cabecalho** - Header com gradiente (laranja → azul) e título
+- ✅ **Rodape** - Footer com copyright
+- ✅ **Vitrine** - Grid responsivo de produtos (repeat auto-fill, minmax 250px)
+- ✅ **ProdutoCard** - Card com imagem, nome, preço, descrição e botão
+- ✅ **Botao** - Componente reutilizável com variantes (primary) e fullWidth
+- ✅ **Selo de Promoção** - Badge com desconto (% OFF)
+
+### 🎨 Funcionalidades Implementadas
+- Grid responsivo com `grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))`
+- Props bem definidas (nome, preco, imagem, descricao, promocao, desconto)
+- Children para flexibilidade futura
+- Dados fixos em `src/data/produtos.js` com 4 produtos de exemplo
+- Sistema de cores com CSS Variables
+- Hover effects nos cards (shadow e translateY)
+- Botão de "Comprar" com alert (já implementado)
+
+### 🎯 Pontos Fortes
+1. **Organização clara de pastas** - layout, produto, common bem separadas
+2. **Componentes reutilizáveis** - Botao pode ser usado em qualquer lugar
+3. **Responsividade** - Grid auto-fill funciona em mobile/desktop
+4. **Design limpo** - Paleta de cores consistente com CSS Variables
+
+### ❓ Dúvidas / Pontos para Feedback
+[Adicione aqui se tiver alguma dúvida ou área que quer melhorar]
+
+Exemplos:
+- Devo separar o `container` em um componente também?
+- A estrutura de pastas está boa ou mudo algo?
+- Posso melhorar algo no uso de props/children?
+
+### 📸 Screenshots
+[Adicione aqui prints da loja rodando - header, vitrine com cards, footer]
+✨ Dicas para completar seu tópico:
+Para as capturas de tela , você pode:
+
+Rodar npm startlocalmente
+Tirar prints do navegador (F12 para DevTools, depois Print Screen)
+Ou use uma ferramenta como Lightshot/Snagit
+Para dúvidas específicas (se houver):
+
+Cole o trecho de código que está gerando dúvida
+Descreva o erro ou o comportamento esperado
+Feedback que você quer :
+
+Organização das massas
+capa de nomenclatura
+Responsividade
+Desempenho
+Design visual
